@@ -72,6 +72,8 @@ class AnimechanAPI:
 
         AnimechanAPI.__check_response_code(response.status_code)
 
+        AnimechanAPI.__check_response_code(response.status_code)
+
         return response.json()
 
     @staticmethod
